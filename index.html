@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Netflix adicionando js</title>
+    <script src="https://kit.fontawesome.com/62b5fa08f6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style-slide.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <header>
+        <div class= "center">
+            <div class="header-left">
+                <a href="https://www.netflix.com/browse"><img src="imagens/logo.png" /></a>
+                <div class="menu-header">
+                    <ul>
+                        <li><a href="">Início</a></li>
+                        <li><a href="">Séries</a></li>
+                        <li><a href="">Filmes</a></li>
+                        <li><a href="">Adicionados Recentemente</a></li>
+                        <li><a href="">Minha lista</a></li>
+                    </ul>
+                </div><!--menu-header-->
+            </div><!--header-left-->
+
+            <div class="header-right">
+                <div class="search">
+                    <i class="fas fa-search"></i>
+                </div><!--search-->
+                <a href="">ADULTO</a>
+                <i class="fas fa-gift"></i>
+                <div class="notifications">
+                    <div class="circle-notifications">
+                        <span>24</span>
+                    </div><!--circle-notifications-->
+                    <i class="far fa-bell"></i>
+                </div><!--notifications-->
+            </div><!--header-right-->
+
+            <div class="clear"></div><!--clear-->
+        </div><!-- center-->
+    </header>
+
+    <section class="destaque">
+        <div class="overlay"></div><!--overlay-->
+        <div class="texto-destaque">
+            <h2>THEIR SMILE</h2>
+            <h3>Assista ao documentário que irá mudar a sua vida!</h3>
+            <p>Para encontrar a felicidade novamente, elas terão que superar os traumas de infância.<br>O documentário fala sobre as dificuladades que 70% das mulheres são obrigadas a superar para sobreviver.</p>
+            <br>
+                <a href="https://www.youtube.com/watch?v=gxalCAhvZKs"><i class="fas fa-play"></i>&nbsp&nbspAssistir</a>
+                <a href=""><i class="fas fa-info-circle"></i>&nbsp&nbspMais informações</a>
+        </div><!--texto-destaque-->
+
+        <div class="category">
+            
+            
+        </div> 
+
+        <div class="contain">
+            <div class="slider">
+                <h3>Continuar assistindo como Ralf</h3>
+                <span onmouseover="scrollEsquerda()" onmouseout="clearScroll()" class="handle handlePrev active">
+                  <i class="fa fa-caret-left" aria-hidden="true"></i>
+                </span>
+          
+                <div id="scroller" class="row">
+                  <div class="row__inner">
+          
+                    <div class="card">
+                      <div class="card__media">
+                        <img class="card__img" src="imagens/video_001.jpg" alt=""  />
+                      </div><!--card__media-->
+                      <div class="card__details">
+                        <div class="card__title">
+                          Friends
+                        </div><!--card__title-->
+                      </div><!--card__details-->
+                    </div><!--card-->
+          
+                    <div class="card">
+                      <div class="card__media">
+                        <img class="card__img" src="imagens/video_002.jpg" alt=""  />
+                      </div><!--card__media-->
+                      <div class="card__details">
+                        <div class="card__title">
+                          Dark
+                        </div><!--card__title-->
+                      </div><!--card__details-->
+                    </div><!--card-->
+          
+                    <div class="card">
+                      <div class="card__media">
+                        <img class="card__img" src="imagens/video_003.jpg" alt=""  />
+                      </div>
+                      <div class="card__details">
+                        <div class="card__title">
+                          Perdidos no espaço
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="card">
+                      <div class="card__media">
+                        <img class="card__img" src="imagens/video_004.jpg" alt=""  />
+                      </div>
+                      <div class="card__details">
+                        <div class="card__title">
+                          Salvation
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="card">
+                      <div class="card__media">
+                        <img class="card__img" src="imagens/video_005.jpg" alt=""  />
+                      </div>
+                      <div class="card__details">
+                        <div class="card__title">
+                          Colony
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="card">
+                      <div class="card__media">
+                        <img class="card__img" src="https://img1.ibxk.com.br/2015/11/12/12134915138723.jpg?w=700" alt=""  />
+                      </div>
+                      <div class="card__details">
+                        <div class="card__title">
+                          Assassin’s Creed
+                        </div>
+                      </div>
+                    </div>
+          
+                  </div><!--row__inner-->
+          
+                </div><!--scroller-->
+                <span onmouseover="scrollDireita()" onmouseout="clearScroll()"  class="handle handleNext active">
+                  <i class="fa fa-caret-right" aria-hidden="true"></i>
+                </span>
+            </div><!--slider-->   
+        </div><!--container-->  
+    </section><!--destaque-->   
+</body>
+</html>
